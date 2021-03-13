@@ -12,6 +12,7 @@ class TestGreenKart(BaseClass):
         print("Person X updating code - THis is for GIT purpose")
         print("Adding code in branch develop only")
         print("Code Added by American Architect")
+        print("Code really added by American architect, above print  is actually by Indina architect")
         self.OpenURL(self.driver, getData["URL"])
         time.sleep(4)
         self.ExplicitWaitForLinkText("Practice Projects")
